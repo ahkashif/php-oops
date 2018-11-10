@@ -122,13 +122,14 @@ Multiple inheritance in PHP is acheivable using **Interfaces**.
 
     class Parent {
 	    public $prop1;
-	    private $prop
+	    private $prop2;
+	    p
     }
     
     class Child {
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDMwMjEzMiw3OTYxNjM0NDAsMTk3OD
-AyODY1XX0=
+eyJoaXN0b3J5IjpbMTc1NzI4NDE5NSwyMTMwMzAyMTMyLDE5Nz
+gwMjg2NV19
 -->
