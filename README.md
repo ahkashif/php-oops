@@ -113,7 +113,9 @@ Static properties and functions can be accessed using **self** keyword.
 
 > Note: **$this** keyword cannot be used inside a static functions. It will throw an error.
 
+## Inheritance
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODAyODY1XX0=
+eyJoaXN0b3J5IjpbMTA4MjkxMTIwMywxOTc4MDI4NjVdfQ==
 -->
