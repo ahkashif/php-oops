@@ -171,7 +171,8 @@ The subclass which extends an abstact class must define the implementation or el
 			echo $this->getWheels();
 		}
     }
-	
+    
+	// Class marked as abstract as it is not writing the implementing the parent 
 	abstract class Truck extends Vehicle {}
 	
 	class RegularTruck extends Truck {
@@ -191,7 +192,7 @@ The subclass which extends an abstact class must define the implementation or el
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwNTI2MDM1LC01NDkwMjQ4MzUsMTE2ND
+eyJoaXN0b3J5IjpbMTA2MDgzMzQ5NiwzNTA1MjYwMzUsMTE2ND
 I2ODU3OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5
 NzksLTQwODYzMTg2MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMT
 c1NzI4NDE5NSwxOTc4MDI4NjVdfQ==
