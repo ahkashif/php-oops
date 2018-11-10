@@ -163,6 +163,7 @@ Abstract classes are the classes which cannot be instantiated, but can be extend
 The subclass which extends an abstact class must define the implementation or else it should also be marked abstarct.
 
     abstarct class Vehicle {
+	    // abstract method.
 	    abstract protected function getWheels();
 		
 		// Common method.
@@ -170,23 +171,18 @@ The subclass which extends an abstact class must define the implementation or el
 			echo $this->getWheels();
 		}
     }
+	abstract class Truck extends Vehicle {}
 	
-	abstract class Truck extends Vehicle {
-		
-	}
-	
-	abstract class RegularTruck extends Vehicle {
+	class RegularTruck extends Truck {
 		protected function getWheels() {
 			return 6;
 		}
 	}
-	
-	abstract class HeavyTruck extends Vehicle {
+	class HeavyTruck extends Truck {
 		protected function getWheels() {
 			return 10;
 		}
 	}
-	
 	class Car extends Vehicle {
 		protected function getWheels() {
 			return 4;
@@ -194,8 +190,8 @@ The subclass which extends an abstact class must define the implementation or el
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTEyODEyMDYsMTE2NDI2ODU3OSwxNT
-gzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLTQwODYz
-MTg2MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1NzI4NDE5NS
-wxOTc4MDI4NjVdfQ==
+eyJoaXN0b3J5IjpbLTU0OTAyNDgzNSwxMTY0MjY4NTc5LDE1OD
+M2MDE4NDYsLTEyOTUzODk1NjcsLTI1MjgyMTk3OSwtNDA4NjMx
+ODYyLDEwODAwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LD
+E5NzgwMjg2NV19
 -->
