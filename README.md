@@ -175,16 +175,27 @@ The subclass which extends an abstact class must define the implementation or el
 		
 	}
 	
+	abstract class RegularTruck extends Vehicle {
+		protected function getWheels() {
+			return 8;
+		}
+	}
+	
+	abstract class HeavyTruck extends Vehicle {
+		protected function getWheels() {
+			return 10;
+		}
+	}
 	
 	
 	class Car extends Vehicle {
 		protected function getWheels() {
-			echo 4;
+			return 4;
 		}
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDI2ODU3OSwtNDIzMDQwMDUzLDE1OD
+eyJoaXN0b3J5IjpbMTIwMTUwMzc3NCwxMTY0MjY4NTc5LDE1OD
 M2MDE4NDYsLTEyOTUzODk1NjcsLTI1MjgyMTk3OSwtNDA4NjMx
 ODYyLDEwODAwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LD
 E5NzgwMjg2NV19
