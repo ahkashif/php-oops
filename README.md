@@ -166,7 +166,7 @@ The subclass which extends an abstact class must define the implementation or el
 	    abstract protected function getWheels();
 		
 		// Common method.
-		public function print() {
+		public function printWheels() {
 			echo $this->getWheels();
 		}
     }
@@ -184,8 +184,8 @@ The subclass which extends an abstact class must define the implementation or el
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzA0MDA1MywxMTQyOTExNTgsMTU4Mz
-YwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIxOTc5LC00MDg2MzE4
-NjIsMTA4MDA3MzUwMSwtNjY1MTY4Nzc1LDE3NTcyODQxOTUsMT
-k3ODAyODY1XX0=
+eyJoaXN0b3J5IjpbMTE2NDI2ODU3OSwtNDIzMDQwMDUzLDE1OD
+M2MDE4NDYsLTEyOTUzODk1NjcsLTI1MjgyMTk3OSwtNDA4NjMx
+ODYyLDEwODAwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LD
+E5NzgwMjg2NV19
 -->
