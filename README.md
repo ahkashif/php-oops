@@ -172,8 +172,9 @@ The subclass which extends an abstact class must define the implementation or el
 		}
     }
     
-	// Class marked as abstract as it is not writing the implementing the parent 
-	abstract class Truck extends Vehicle {}
+	// Class marked as abstract since it is not defining the parent abstarct method implementation.
+	abstract class Truck extends Vehicle {
+	}
 	
 	class RegularTruck extends Truck {
 		protected function getWheels() {
@@ -192,8 +193,8 @@ The subclass which extends an abstact class must define the implementation or el
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDgzMzQ5NiwzNTA1MjYwMzUsMTE2ND
-I2ODU3OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5
-NzksLTQwODYzMTg2MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMT
-c1NzI4NDE5NSwxOTc4MDI4NjVdfQ==
+eyJoaXN0b3J5IjpbODkyNzA5OTE3LDM1MDUyNjAzNSwxMTY0Mj
+Y4NTc5LDE1ODM2MDE4NDYsLTEyOTUzODk1NjcsLTI1MjgyMTk3
+OSwtNDA4NjMxODYyLDEwODAwNzM1MDEsLTY2NTE2ODc3NSwxNz
+U3Mjg0MTk1LDE5NzgwMjg2NV19
 -->
