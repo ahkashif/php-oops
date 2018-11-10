@@ -129,8 +129,7 @@ Multiple inheritance in PHP is acheivable using **Interfaces**.
 			echo "Hi";
 		}
     }
-    
-    class Child extends Parent {
+       class Child extends Parent {
 		public $prop4 = 40;
 		
 		// Overloading
@@ -158,6 +157,7 @@ To acess parent class properties, **parent** keyword can be used.
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjY3NTgxMCwxMDgwMDczNTAxLC02Nj
-UxNjg3NzUsMTc1NzI4NDE5NSwxOTc4MDI4NjVdfQ==
+eyJoaXN0b3J5IjpbMTE4ODc1ODIzNCwxMjk2Njc1ODEwLDEwOD
+AwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LDE5NzgwMjg2
+NV19
 -->
