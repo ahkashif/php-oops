@@ -159,9 +159,9 @@ To acess parent class properties, **parent** keyword is used.
     
 ### Abstract classes.
 
-Abstract classes are declared using **abstract** keyword. 
+Abstract classes are the classes which cannot be instantiated, but can be extended. It should contain atleast one abstact method. An abstarct method is a method which has only declaration but no
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDczNjIxOCwtMTI5NTM4OTU2NywtMj
-UyODIxOTc5LC00MDg2MzE4NjIsMTA4MDA3MzUwMSwtNjY1MTY4
-Nzc1LDE3NTcyODQxOTUsMTk3ODAyODY1XX0=
+eyJoaXN0b3J5IjpbLTEzMjgyMTY1NjYsLTEyOTUzODk1NjcsLT
+I1MjgyMTk3OSwtNDA4NjMxODYyLDEwODAwNzM1MDEsLTY2NTE2
+ODc3NSwxNzU3Mjg0MTk1LDE5NzgwMjg2NV19
 -->
