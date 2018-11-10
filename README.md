@@ -163,17 +163,17 @@ Abstract classes are the classes which cannot be instantiated, but can be extend
 The subclass which extends an abstact class must define the implementation or else it should also be marked abstarct.
 
     abstarct class Vehicle {
-	    
+	    abstract protected function getWheels();
     }
 	
-	class Truck extends Vehicle {
+	abstract class Truck extends Vehicle {
 	
 	}
 	
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzM4NTU2LDE1ODM2MDE4NDYsLTEyOT
+eyJoaXN0b3J5IjpbNDE0NzM4OTE4LDE1ODM2MDE4NDYsLTEyOT
 UzODk1NjcsLTI1MjgyMTk3OSwtNDA4NjMxODYyLDEwODAwNzM1
 MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LDE5NzgwMjg2NV19
 -->
