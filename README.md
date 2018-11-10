@@ -159,9 +159,9 @@ To acess parent class properties, **parent** keyword is used.
     
 ### Abstract classes.
 
-
+Abstract classes are declared using **abstract** keyword. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUzODk1NjcsLTI1MjgyMTk3OSwtND
-A4NjMxODYyLDEwODAwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0
-MTk1LDE5NzgwMjg2NV19
+eyJoaXN0b3J5IjpbLTI2MDczNjIxOCwtMTI5NTM4OTU2NywtMj
+UyODIxOTc5LC00MDg2MzE4NjIsMTA4MDA3MzUwMSwtNjY1MTY4
+Nzc1LDE3NTcyODQxOTUsMTk3ODAyODY1XX0=
 -->
