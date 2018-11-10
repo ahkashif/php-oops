@@ -160,11 +160,20 @@ To acess parent class properties, **parent** keyword is used.
 ### Abstract classes.
 
 Abstract classes are the classes which cannot be instantiated, but can be extended. It should contain atleast one abstact method. An abstarct method is a method which has only declaration but no definition.
-The subclass which extends an abstact class must define the implementation or else it should also be   
+The subclass which extends an abstact class must define the implementation or else it should also be marked abstarct.
+
+    abstarct class Vehicle {
+	    
+    }
+	
+	class Truck extends Vehicle {
+	
+	}
+	
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzYwMTg0NiwxMjAxNjk5OTUwLC0xMj
-k1Mzg5NTY3LC0yNTI4MjE5NzksLTQwODYzMTg2MiwxMDgwMDcz
-NTAxLC02NjUxNjg3NzUsMTc1NzI4NDE5NSwxOTc4MDI4NjVdfQ
-==
+eyJoaXN0b3J5IjpbMjEzNzM4NTU2LDE1ODM2MDE4NDYsLTEyOT
+UzODk1NjcsLTI1MjgyMTk3OSwtNDA4NjMxODYyLDEwODAwNzM1
+MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LDE5NzgwMjg2NV19
 -->
