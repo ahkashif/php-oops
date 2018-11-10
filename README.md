@@ -140,7 +140,18 @@ Multiple inheritance in PHP is acheivable using **Interfaces**.
     }
     
 Public and protected properties and methods are inherited to child class. Private properties are only accessible only withing the class. 
+
+To acess parent class properties, **parent** keyword can be used.
+
+    class Parent { 
+	    public $prop1 = 10; 
+	    public function myFunction() { 
+		    echo "Hi"; }
+	    }
+    }
+    class Child extends Parent { public $prop4 = 40; // Overloading public function myFunction() { echo "Hello"; } }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzE4ODYzMiwtNjY1MTY4Nzc1LDE3NT
+eyJoaXN0b3J5IjpbLTcyMjYwMjY3MywtNjY1MTY4Nzc1LDE3NT
 cyODQxOTUsMTk3ODAyODY1XX0=
 -->
