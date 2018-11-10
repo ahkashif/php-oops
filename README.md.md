@@ -1,11 +1,6 @@
 
 # PHP OOP concepts.
 
-Table of Content
-
-
-
-
 ## Classes and Objects 
 	
 Class is declared by using "class" keyword.
@@ -86,7 +81,12 @@ Arguments can be **type declared**.
     public function functionName(int $arg1, boolean $arg2, Class/Interface $arg3) {
     	// Logic..
     }
-    
+
+Function argument can have default value.
+
+    public function functionName(int $arg1 = 1) {
+    	// Logic..
+    }
 Function **Return Type Declarations** 
 
     public function functionName() : int { 
@@ -115,5 +115,5 @@ Static properties and functions can be accessed using **self** keyword.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTQyMjEwLDEzMTEwNzU3MThdfQ==
+eyJoaXN0b3J5IjpbLTI3ODY3MjU4OCwxMzExMDc1NzE4XX0=
 -->
