@@ -153,12 +153,12 @@ To acess parent class properties, **parent** keyword can be used.
 	    public function myFunction() { 
 		   echo $this->$prop; // 20
 		   echo parent::$prop: // 10
-		   echo parent::myFunction(); 
+		   echo parent::myFunction(); // HI 
 	    } 
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzUzODA3MywxMTg4NzU4MjM0LDEwOD
-AwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LDE5NzgwMjg2
-NV19
+eyJoaXN0b3J5IjpbOTYyNjMxNzE4LC01Nzc1MzgwNzMsMTA4MD
+A3MzUwMSwtNjY1MTY4Nzc1LDE3NTcyODQxOTUsMTk3ODAyODY1
+XX0=
 -->
