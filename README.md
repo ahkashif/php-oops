@@ -116,7 +116,8 @@ Static properties and functions can be accessed using **self** keyword.
 ## Inheritance
 
 PHP supports multilevel inheritance and a class can extend another class using **extends** keyword.
-Multiple inheritance in PHP is  
+Multiple inheritance in PHP is acheivable us 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODcyNTcyLDE5NzgwMjg2NV19
+eyJoaXN0b3J5IjpbNzk2MTYzNDQwLDE4NTg3MjU3MiwxOTc4MD
+I4NjVdfQ==
 -->
