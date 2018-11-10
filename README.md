@@ -156,9 +156,10 @@ To acess parent class properties, **parent** keyword is used.
 		   echo parent::myFunction(); //Hi 
 	    } 
     }
-### Abstra
+    
+### Abstract classes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODYzMTg2MiwtMzgyMDEwMTA0LDEwOD
+eyJoaXN0b3J5IjpbLTI1MjgyMTk3OSwtNDA4NjMxODYyLDEwOD
 AwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LDE5NzgwMjg2
 NV19
 -->
