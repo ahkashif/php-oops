@@ -170,6 +170,7 @@ The subclass which extends an abstact class must define the implementation or el
 		
 	}
 	
+	
 	class Car extends Vehicle {
 		protected function getWheels() {
 			echo 4;
@@ -177,7 +178,8 @@ The subclass which extends an abstact class must define the implementation or el
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0NTY5NjY0LDE1ODM2MDE4NDYsLTEyOT
-UzODk1NjcsLTI1MjgyMTk3OSwtNDA4NjMxODYyLDEwODAwNzM1
-MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LDE5NzgwMjg2NV19
+eyJoaXN0b3J5IjpbMTE0MjkxMTU4LDc5NDU2OTY2NCwxNTgzNj
+AxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLTQwODYzMTg2
+MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1NzI4NDE5NSwxOT
+c4MDI4NjVdfQ==
 -->
