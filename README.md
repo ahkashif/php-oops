@@ -134,8 +134,8 @@ Multiple inheritance in PHP is acheivable using **Interfaces**.
 		public $prop4 = 40;
     }
     
-public and protected properties and methods are inherited to chil
+public and protected properties and methods are inherited to child class 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY2NjkxMjYsLTE5MzkwNzM1OTIsMT
-c1NzI4NDE5NSwxOTc4MDI4NjVdfQ==
+eyJoaXN0b3J5IjpbMTYyMTg4NzA2MiwtMTg4NjY2OTEyNiwxNz
+U3Mjg0MTk1LDE5NzgwMjg2NV19
 -->
