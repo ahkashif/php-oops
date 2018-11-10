@@ -82,9 +82,9 @@ Arguments can be **type declared**.
     	// Logic..
     }
 
-Function argument can have default value.
+Function argument can have **default value**.
 
-    public function functionName(int $arg1 = 1) {
+    public function functionName(int $arg1 = 1, bool $arg2 = TRUE) {
     	// Logic..
     }
 Function **Return Type Declarations** 
@@ -115,5 +115,5 @@ Static properties and functions can be accessed using **self** keyword.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODY3MjU4OCwxMzExMDc1NzE4XX0=
+eyJoaXN0b3J5IjpbMTk3ODAyODY1LDEzMTEwNzU3MThdfQ==
 -->
