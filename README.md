@@ -125,16 +125,16 @@ Multiple inheritance in PHP is acheivable using **Interfaces**.
 	    private $prop2 = 20;
 	    protected $prop3 = 30;
 		
-		public function getPrivate() {
-			return $this->prop2;
+		public function myFunction() {
+			// Logic
 		}
     }
     
     class Child extends Parent {
-
+		pub
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjc5NTkwMCwxNzU3Mjg0MTk1LDE5Nz
+eyJoaXN0b3J5IjpbMTMwMzQ4NDcwOSwxNzU3Mjg0MTk1LDE5Nz
 gwMjg2NV19
 -->
