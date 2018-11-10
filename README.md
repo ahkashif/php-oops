@@ -158,8 +158,10 @@ To acess parent class properties, **parent** keyword is used.
     }
     
 ### Abstract classes.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjgyMTk3OSwtNDA4NjMxODYyLDEwOD
-AwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LDE5NzgwMjg2
-NV19
+eyJoaXN0b3J5IjpbLTEyOTUzODk1NjcsLTI1MjgyMTk3OSwtND
+A4NjMxODYyLDEwODAwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0
+MTk1LDE5NzgwMjg2NV19
 -->
