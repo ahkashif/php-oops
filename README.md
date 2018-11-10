@@ -164,11 +164,17 @@ The subclass which extends an abstact class must define the implementation or el
 
     abstarct class Vehicle {
 	    abstract protected function getWheels();
+		
+		// Common method.
+		public function print() {
+			echo $this->getWheels();
+		}
     }
 	
 	abstract class Truck extends Vehicle {
 		
 	}
+	
 	
 	
 	class Car extends Vehicle {
@@ -178,8 +184,8 @@ The subclass which extends an abstact class must define the implementation or el
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjkxMTU4LDc5NDU2OTY2NCwxNTgzNj
-AxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLTQwODYzMTg2
-MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1NzI4NDE5NSwxOT
-c4MDI4NjVdfQ==
+eyJoaXN0b3J5IjpbLTQyMzA0MDA1MywxMTQyOTExNTgsMTU4Mz
+YwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIxOTc5LC00MDg2MzE4
+NjIsMTA4MDA3MzUwMSwtNjY1MTY4Nzc1LDE3NTcyODQxOTUsMT
+k3ODAyODY1XX0=
 -->
