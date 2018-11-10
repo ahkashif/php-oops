@@ -1,6 +1,11 @@
 
 # PHP OOP concepts.
 
+Table of Content
+
+
+
+
 ## Classes and Objects 
 	
 Class is declared by using "class" keyword.
@@ -107,6 +112,8 @@ Static properties and functions can be accessed using **self** keyword.
     }
 
 > Note: **$this** keyword cannot be used inside a static functions. It will throw an error.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTA3NTcxOF19
+eyJoaXN0b3J5IjpbLTg0NTQyMjEwLDEzMTEwNzU3MThdfQ==
 -->
