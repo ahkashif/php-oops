@@ -144,14 +144,20 @@ Public and protected properties and methods are inherited to child class. Privat
 To acess parent class properties, **parent** keyword can be used.
 
     class Parent { 
-	    public $prop1 = 10; 
+	    public $prop = 10; 
 	    public function myFunction() { 
-		    echo "Hi"; }
-	    }
+		    echo "Hi"; 
+		=
     }
-    class Child extends Parent { public $prop4 = 40; // Overloading public function myFunction() { echo "Hello"; } }
+    
+    class Child extends Parent { 
+	    public $prop = 20; 
+	    // Overloading public function myFunction() { 
+		    echo "Hello"; 
+	    } 
+    }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjYwMjY3MywtNjY1MTY4Nzc1LDE3NT
+eyJoaXN0b3J5IjpbMTA4MDA3MzUwMSwtNjY1MTY4Nzc1LDE3NT
 cyODQxOTUsMTk3ODAyODY1XX0=
 -->
