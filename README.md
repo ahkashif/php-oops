@@ -121,15 +121,20 @@ Multiple inheritance in PHP is acheivable using **Interfaces**.
 ###  Multilevel Inheritance
 
     class Parent {
-	    public $prop1;
-	    private $prop2;
-	    p
+	    public $prop1 = 10;
+	    private $prop2 = 20;
+	    protected $prop3 = 30;
+		
+		public function getPrivate() {
+			return $this->prop2;
+		}
     }
     
-    class Child {
+    class Child extends Parent {
+
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzI4NDE5NSwyMTMwMzAyMTMyLDE5Nz
+eyJoaXN0b3J5IjpbMTQyNjc5NTkwMCwxNzU3Mjg0MTk1LDE5Nz
 gwMjg2NV19
 -->
