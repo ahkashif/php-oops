@@ -3,7 +3,8 @@
 
 ## Table of Contents
 
- 1. List item
+ 1. Classes and Objects
+ 2. 
 
 ## Classes and Objects 
 	
@@ -287,7 +288,7 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjM1Nzc5MSwtMjA4MzQ2ODUzLC0xOD
+eyJoaXN0b3J5IjpbLTg4MzIxNzkwMywxMzg2MzU3NzkxLC0xOD
 EwMzYzODA2LC03NDYxODg3ODgsLTExNzM0MzI2NjEsLTEzMDIw
 NjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4NDI0MTY0MC
 wxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3LDM3Njg0
