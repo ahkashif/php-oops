@@ -216,15 +216,15 @@ Apart from abstract methods, interfaces can contain constatnts also, but the con
 		}
 	}
 	
-	class MailLogger {
+	class FileSLogger {
 	}
 Apart from abstract methods, interfaces can contain constatnts also, but the constants cannto be overridden by the child classes. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTE4ODczNCwxOTU4NDMxMzU1LDk4ND
-I0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3
-LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNj
-g1NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIxOTc5
-LC00MDg2MzE4NjIsMTA4MDA3MzUwMSwtNjY1MTY4Nzc1LDE3NT
-cyODQxOTUsMTk3ODAyODY1XX0=
+eyJoaXN0b3J5IjpbNjgwMjQ4OTA2LC03MjkxODg3MzQsOTg0Mj
+QxNjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcs
+Mzc2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2OD
+U3OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5Nzks
+LTQwODYzMTg2MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1Nz
+I4NDE5NSwxOTc4MDI4NjVdfQ==
 -->
