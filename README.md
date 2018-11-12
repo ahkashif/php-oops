@@ -7,7 +7,13 @@
 	 i.  Declaring classes
 	 ii. Accessing class properties and methods
  2. Functions
- 3. 
+	i. Acessing class properties from a class method
+ 3. Inheritance
+	i. Extending classes
+    ii. Abstract classes
+    iii. interfaces
+    iv. Traits
+
 
 ## Classes and Objects 
 
@@ -293,7 +299,7 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODIwODQ5OCwtMTM0MTU0NTc3MiwxMz
+eyJoaXN0b3J5IjpbLTg1NDc5MDYzOSwtMTM0MTU0NTc3MiwxMz
 g2MzU3NzkxLC0xODEwMzYzODA2LC03NDYxODg3ODgsLTExNzM0
 MzI2NjEsLTEzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MT
 MyLDk4NDI0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2
