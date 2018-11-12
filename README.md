@@ -207,13 +207,21 @@ Interfaces are is same as abstact class except it can only contain abstract meth
 Apart from abstract methods, interfaces can contain constatnts also, but the constants cannto be overridden by the child classes. 
 
     interface Logger {
-    
+	    public function log($message);
     }
+    
 	class DBLogger {
+		public function log() {
+			// Logic to log the message into db.
+		}
 	}
+	
+	class MailLogger {
+	}
+Apart from abstract methods, interfaces can contain constatnts also, but the constants cannto be overridden by the child classes. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODQzMTM1NSwxODIyNzMwODE4LDk4ND
+eyJoaXN0b3J5IjpbLTcyOTE4ODczNCwxOTU4NDMxMzU1LDk4ND
 I0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3
 LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNj
 g1NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIxOTc5
