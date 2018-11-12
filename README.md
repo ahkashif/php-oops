@@ -232,8 +232,10 @@ Apart from abstract methods, interfaces can contain constatnts also, but the con
 	echo AudiD2::WHEELS; // 4
 
 ### Traits
+
+Trait is a concept of code reusability in PHP. Since php is a single inheritance language, enabling a developer to reuse sets of methods freely in several independent classes living in different class hierarchies 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTQ3ODQ0OCwtMjY3NDE5MTMyLDk4ND
+eyJoaXN0b3J5IjpbLTgxMzY2MjYyNiwtMjY3NDE5MTMyLDk4ND
 I0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3
 LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNj
 g1NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIxOTc5
