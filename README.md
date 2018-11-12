@@ -90,9 +90,11 @@ Class properties and functions can be accessed by **"->"** operator.
 
 ### Constructors and Destructors
 
-Class constructor is executed whenever a new object is instantiated using the new keyword.
+Class constructor is executed whenever a new object is instantiated using the new keyword. Constructor is usefull when 
 
-
+    class MyClass {
+    
+    }
 
 ## Functions
 	
@@ -329,11 +331,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzIxMjA5LC01OTE0MTI3OTYsLTg0Mz
-k4MzU5LDE3MTQ2MzUxMDksLTY4NTIzNjYzNCw0ODI0MDY2NjIs
-MzIwNDkwNDkzLDQ2NzAxNjM1NywtMzQzNDE0MzE2LC0xMzQxNT
-Q1NzcyLDEzODYzNTc3OTEsLTE4MTAzNjM4MDYsLTc0NjE4ODc4
-OCwtMTE3MzQzMjY2MSwtMTMwMjA2MDgzLC0xNjY3NDQxODY1LC
-0yNjc0MTkxMzIsOTg0MjQxNjQwLDEwODcwNDQzOSwtNTY1NzAx
-MTVdfQ==
+eyJoaXN0b3J5IjpbLTQ5MjM0MTkyNSwtNTkxNDEyNzk2LC04ND
+M5ODM1OSwxNzE0NjM1MTA5LC02ODUyMzY2MzQsNDgyNDA2NjYy
+LDMyMDQ5MDQ5Myw0NjcwMTYzNTcsLTM0MzQxNDMxNiwtMTM0MT
+U0NTc3MiwxMzg2MzU3NzkxLC0xODEwMzYzODA2LC03NDYxODg3
+ODgsLTExNzM0MzI2NjEsLTEzMDIwNjA4MywtMTY2NzQ0MTg2NS
+wtMjY3NDE5MTMyLDk4NDI0MTY0MCwxMDg3MDQ0MzksLTU2NTcw
+MTE1XX0=
 -->
