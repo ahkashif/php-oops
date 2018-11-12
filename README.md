@@ -195,9 +195,12 @@ The subclass which extends an abstact class must define the implementation or el
 
 ### Interfaces
 Interfaces are is same as abstact class except it can only contain abstract methods and the classes inherited form it must have to define all the methods.
-Interface are 
+Interfaces are declared using **interface** keyword.
+
+    interface 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTcwMTE1LDIyODc5MDA4OSwtMTE0Nj
+eyJoaXN0b3J5IjpbMTA4NzA0NDM5LC01NjU3MDExNSwtMTE0Nj
 gyNTMyNywzNzY4NDM4MSwxMzc5MTk0Njk4LDM1MDUyNjAzNSwx
 MTY0MjY4NTc5LDE1ODM2MDE4NDYsLTEyOTUzODk1NjcsLTI1Mj
 gyMTk3OSwtNDA4NjMxODYyLDEwODAwNzM1MDEsLTY2NTE2ODc3
