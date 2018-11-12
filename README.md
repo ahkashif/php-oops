@@ -239,12 +239,12 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
     interface SmartPhone {
 		public function model();
-		public function osName();
+		public function os();
 		public function developer();
 	}
 	
 	trait Android {
-		public function osName(){
+		public function os(){
 			return "Android";
 		}
 		public function developer(){
@@ -253,7 +253,7 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	}
 	
 	trait Ios {
-		public function osName(){
+		public function os(){
 			return "IOS";
 		}
 		public function developer(){
@@ -261,25 +261,30 @@ Traits are definded using the trait keyword and used in classes using use keywor
 		}
 	}
 	
-	class MotoG implements SmartPhone {
-		use Andriod; // No need of overriding osName and developer methods.
+	class  implements SmartPhone {
+		use Andriod; // No need of overriding os and developer methods.
 		public function model(){
 			return "MotoG";
 		}
 	}
 	
 	class IphoneXPlus implements SmartPhone {
-		use Ios; // No need of overriding osName and developer methods.
+		use Ios; // No need of overriding os and developer methods.
 		public function model(){
 			return "IphoneXPlus";
 		}
 	}
+	
+	MotoG::model();
+	MotoG::osName();
+	MotoG::developer(); // Google
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjYxMDU3NjIsLTExNzM0MzI2NjEsLT
-EzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4NDI0
-MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3LD
-M3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNjg1
-NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIxOTc5LC
-00MDg2MzE4NjIsMTA4MDA3MzUwMSwtNjY1MTY4Nzc1LDE3NTcy
-ODQxOTVdfQ==
+eyJoaXN0b3J5IjpbLTM3OTAyMTIwNCwtMTE3MzQzMjY2MSwtMT
+MwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0MTkxMzIsOTg0MjQx
+NjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcsMz
+c2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2ODU3
+OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLT
+QwODYzMTg2MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1NzI4
+NDE5NV19
 -->
