@@ -210,21 +210,27 @@ Apart from abstract methods, interfaces can contain constatnts also, but the con
 	    public function log($message);
     }
     
-	class DBLogger {
+	class DBLogger implements Logger {
 		public function log() {
 			// Logic to log the message into db.
 		}
 	}
 	
-	class FileSLogger {
+	class MailLogger implements Logger {
+		public function log() {
+			// Logic to log the message on email..
+		}
 	}
+	
 Apart from abstract methods, interfaces can contain constatnts also, but the constants cannto be overridden by the child classes. 
 
+    interface MyInterface { public function myFunction(); }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwMjQ4OTA2LC03MjkxODg3MzQsOTg0Mj
-QxNjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcs
-Mzc2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2OD
-U3OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5Nzks
-LTQwODYzMTg2MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1Nz
-I4NDE5NSwxOTc4MDI4NjVdfQ==
+eyJoaXN0b3J5IjpbNjYxMDkwMjE1LDY4MDI0ODkwNiw5ODQyND
+E2NDAsMTA4NzA0NDM5LC01NjU3MDExNSwtMTE0NjgyNTMyNywz
+NzY4NDM4MSwxMzc5MTk0Njk4LDM1MDUyNjAzNSwxMTY0MjY4NT
+c5LDE1ODM2MDE4NDYsLTEyOTUzODk1NjcsLTI1MjgyMTk3OSwt
+NDA4NjMxODYyLDEwODAwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mj
+g0MTk1LDE5NzgwMjg2NV19
 -->
