@@ -104,6 +104,22 @@ Class constructor is executed whenever a new object is instantiated using the ne
 Destructors are called when there is no more reference to the object. It is also called when the script execution is ended using exit etc.
 Destructors are used to free up any resources e.g db connection, file stream which are initialized in the constructor.
  
+     class MyClass {
+	    public __construct() {
+		    echo "Hello World";
+		}
+		public __construct() {
+		    echo "Bye World";
+		}
+    }
+    new MyClass; 
+    
+    // Hello World
+    // Bye World
+    
+
+> Note: __construcor and __descructor are magic methods in php.
+
 ## Functions
 	
 	/**
@@ -339,7 +355,7 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg3MTY1OTEsNjQ4NzM0NTc0LC04NT
+eyJoaXN0b3J5IjpbLTE5OTE5NzE0MzcsNjQ4NzM0NTc0LC04NT
 EyNDA5NjUsNTA0NTY3ODQ4LC01OTE0MTI3OTYsLTg0Mzk4MzU5
 LDE3MTQ2MzUxMDksLTY4NTIzNjYzNCw0ODI0MDY2NjIsMzIwND
 kwNDkzLDQ2NzAxNjM1NywtMzQzNDE0MzE2LC0xMzQxNTQ1Nzcy
