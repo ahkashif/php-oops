@@ -238,11 +238,12 @@ Apart from abstract methods, interfaces can contain constatnts also, but the con
 Traits are definded using the trait keyword and used in classes using use keyword. A class use multiple keywords.
 
     interface SmartPhone {
-	
+		public function model();
+		public function os();
 	}
-
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTU0NTg5MCwtMTY2NzQ0MTg2NSwtMj
+eyJoaXN0b3J5IjpbLTEzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMj
 Y3NDE5MTMyLDk4NDI0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1
 LC0xMTQ2ODI1MzI3LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNT
 I2MDM1LDExNjQyNjg1NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2
