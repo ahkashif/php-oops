@@ -6,6 +6,7 @@
  1. Classes and Objects
 
 	 i.  Declaring classes
+	 
 	 ii. Accessing class properties and methods
 	 
  2. Functions
@@ -15,8 +16,11 @@
  3. Inheritance
 
 	i. Extending classes
+	
     ii. Abstract classes
+    
     iii. Interfaces
+    
     iv. Traits
 
 
@@ -304,11 +308,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY3MDE2MzU3LC0zNDM0MTQzMTYsLTEzND
-E1NDU3NzIsMTM4NjM1Nzc5MSwtMTgxMDM2MzgwNiwtNzQ2MTg4
-Nzg4LC0xMTczNDMyNjYxLC0xMzAyMDYwODMsLTE2Njc0NDE4Nj
-UsLTI2NzQxOTEzMiw5ODQyNDE2NDAsMTA4NzA0NDM5LC01NjU3
-MDExNSwtMTE0NjgyNTMyNywzNzY4NDM4MSwxMzc5MTk0Njk4LD
-M1MDUyNjAzNSwxMTY0MjY4NTc5LDE1ODM2MDE4NDYsLTEyOTUz
-ODk1NjddfQ==
+eyJoaXN0b3J5IjpbMTkxNDg4NzQwNyw0NjcwMTYzNTcsLTM0Mz
+QxNDMxNiwtMTM0MTU0NTc3MiwxMzg2MzU3NzkxLC0xODEwMzYz
+ODA2LC03NDYxODg3ODgsLTExNzM0MzI2NjEsLTEzMDIwNjA4My
+wtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4NDI0MTY0MCwxMDg3
+MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3LDM3Njg0MzgxLD
+EzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNjg1NzksMTU4MzYw
+MTg0Nl19
 -->
