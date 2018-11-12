@@ -239,16 +239,21 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
     interface SmartPhone {
 		public function model();
-		public function os();
-		developer ();
+		public function osNa();
+		public function developer();
+	}
+	
+	trait Android {
+		public function os(){
+		}
 	}
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1NzMxMjk1LC0yNDMwMDA2ODIsLTEzMD
-IwNjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4NDI0MTY0
-MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3LDM3Nj
-g0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNjg1Nzks
-MTU4MzYwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIxOTc5LC00MD
-g2MzE4NjIsMTA4MDA3MzUwMSwtNjY1MTY4Nzc1LDE3NTcyODQx
-OTVdfQ==
+eyJoaXN0b3J5IjpbODI5OTYzNDE0LDk4NTczMTI5NSwtMTMwMj
+A2MDgzLC0xNjY3NDQxODY1LC0yNjc0MTkxMzIsOTg0MjQxNjQw
+LDEwODcwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcsMzc2OD
+QzODEsMTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2ODU3OSwx
+NTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLTQwOD
+YzMTg2MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1NzI4NDE5
+NV19
 -->
