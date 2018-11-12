@@ -194,9 +194,10 @@ The subclass which extends an abstact class must define the implementation or el
 	}
 
 ### Interfaces
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2ND
-I2ODU3OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5
-NzksLTQwODYzMTg2MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMT
-c1NzI4NDE5NSwxOTc4MDI4NjVdfQ==
+eyJoaXN0b3J5IjpbMjk0Nzk2MDI0LDEzNzkxOTQ2OTgsMzUwNT
+I2MDM1LDExNjQyNjg1NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2
+NywtMjUyODIxOTc5LC00MDg2MzE4NjIsMTA4MDA3MzUwMSwtNj
+Y1MTY4Nzc1LDE3NTcyODQxOTUsMTk3ODAyODY1XX0=
 -->
