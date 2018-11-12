@@ -88,6 +88,10 @@ Class properties and functions can be accessed by **"->"** operator.
 	// Static methods.
     MyClass::staicFunctionName();
 
+### Constructors and Destructors
+
+Constructor method are executed 
+
 ## Functions
 	
 	/**
@@ -323,11 +327,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjgxNjg3MjEsLTU5MTQxMjc5NiwtOD
-QzOTgzNTksMTcxNDYzNTEwOSwtNjg1MjM2NjM0LDQ4MjQwNjY2
-MiwzMjA0OTA0OTMsNDY3MDE2MzU3LC0zNDM0MTQzMTYsLTEzND
-E1NDU3NzIsMTM4NjM1Nzc5MSwtMTgxMDM2MzgwNiwtNzQ2MTg4
-Nzg4LC0xMTczNDMyNjYxLC0xMzAyMDYwODMsLTE2Njc0NDE4Nj
-UsLTI2NzQxOTEzMiw5ODQyNDE2NDAsMTA4NzA0NDM5LC01NjU3
-MDExNV19
+eyJoaXN0b3J5IjpbMjAxNTEzMjA4NCwtNTkxNDEyNzk2LC04ND
+M5ODM1OSwxNzE0NjM1MTA5LC02ODUyMzY2MzQsNDgyNDA2NjYy
+LDMyMDQ5MDQ5Myw0NjcwMTYzNTcsLTM0MzQxNDMxNiwtMTM0MT
+U0NTc3MiwxMzg2MzU3NzkxLC0xODEwMzYzODA2LC03NDYxODg3
+ODgsLTExNzM0MzI2NjEsLTEzMDIwNjA4MywtMTY2NzQ0MTg2NS
+wtMjY3NDE5MTMyLDk4NDI0MTY0MCwxMDg3MDQ0MzksLTU2NTcw
+MTE1XX0=
 -->
