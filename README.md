@@ -4,11 +4,7 @@
 ## Table of Contents
 
  1. Classes and Objects
-		
-
-List item
-
-		 
+		i>  
  2. 
 
 ## Classes and Objects 
@@ -293,11 +289,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2MTY2ODYsMTM4NjM1Nzc5MSwtMTgxMD
-M2MzgwNiwtNzQ2MTg4Nzg4LC0xMTczNDMyNjYxLC0xMzAyMDYw
-ODMsLTE2Njc0NDE4NjUsLTI2NzQxOTEzMiw5ODQyNDE2NDAsMT
-A4NzA0NDM5LC01NjU3MDExNSwtMTE0NjgyNTMyNywzNzY4NDM4
-MSwxMzc5MTk0Njk4LDM1MDUyNjAzNSwxMTY0MjY4NTc5LDE1OD
-M2MDE4NDYsLTEyOTUzODk1NjcsLTI1MjgyMTk3OSwtNDA4NjMx
-ODYyXX0=
+eyJoaXN0b3J5IjpbMTM4MjcxNTg0OCw3OTYxNjY4NiwxMzg2Mz
+U3NzkxLC0xODEwMzYzODA2LC03NDYxODg3ODgsLTExNzM0MzI2
+NjEsLTEzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLD
+k4NDI0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1
+MzI3LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNj
+QyNjg1NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIx
+OTc5XX0=
 -->
