@@ -200,9 +200,9 @@ Interfaces are is same as abstact class except it can only contain abstract meth
 
     interface MyInterface {
 	}
-Interfaces can contain abstact methods a
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE1NjM1OTMsLTc0ODQ1ODg2LDEwOD
+eyJoaXN0b3J5IjpbNTUwNTYyMzYwLC0yMDAxNTYzNTkzLDEwOD
 cwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcsMzc2ODQzODEs
 MTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2ODU3OSwxNTgzNj
 AxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLTQwODYzMTg2
