@@ -221,16 +221,21 @@ Apart from abstract methods, interfaces can contain constatnts also, but the con
 
     interface Car { 
 	    const WHEELS = 4; 
+	    public function model();
     }
-    class BMW implements  { 
+    class AudiD2 implements Car { 
 	    const WHEELS = 4; 
+	    public function model() {
+		   echo "D2";
+		}
     }
 	echo Car::WHEELS; // 4
+	echo AudiD2::WHEELS; // 4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzQxOTEzMiwtNzY0MTM2MTk0LDk4ND
-I0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3
-LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNj
-g1NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIxOTc5
-LC00MDg2MzE4NjIsMTA4MDA3MzUwMSwtNjY1MTY4Nzc1LDE3NT
-cyODQxOTUsMTk3ODAyODY1XX0=
+eyJoaXN0b3J5IjpbMTY5MDc4OTg3LC0yNjc0MTkxMzIsOTg0Mj
+QxNjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcs
+Mzc2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2OD
+U3OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5Nzks
+LTQwODYzMTg2MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1Nz
+I4NDE5NSwxOTc4MDI4NjVdfQ==
 -->
