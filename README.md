@@ -75,7 +75,7 @@ Class properties and functions can be accessed by **"->"** operator.
     // Calling function.
     $object->functionName($arg);
 
-Static properties, functions and classs constants can be accessed by **"::"** operator.
+[Static](http://php.net/manual/en/language.oop5.static.php) properties, functions and classs constants can be accessed by **"::"** operator.
 
     // Access static property.
     MyClass::$static_property;
@@ -308,11 +308,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyNDA2NjYyLDMyMDQ5MDQ5Myw0NjcwMT
-YzNTcsLTM0MzQxNDMxNiwtMTM0MTU0NTc3MiwxMzg2MzU3Nzkx
-LC0xODEwMzYzODA2LC03NDYxODg3ODgsLTExNzM0MzI2NjEsLT
-EzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4NDI0
-MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3LD
-M3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNjg1
-NzldfQ==
+eyJoaXN0b3J5IjpbLTExNDcwNDMzNDksNDgyNDA2NjYyLDMyMD
+Q5MDQ5Myw0NjcwMTYzNTcsLTM0MzQxNDMxNiwtMTM0MTU0NTc3
+MiwxMzg2MzU3NzkxLC0xODEwMzYzODA2LC03NDYxODg3ODgsLT
+ExNzM0MzI2NjEsLTEzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMjY3
+NDE5MTMyLDk4NDI0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC
+0xMTQ2ODI1MzI3LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2
+MDM1XX0=
 -->
