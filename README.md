@@ -307,12 +307,15 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::model(); // IphoneXPlus
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
+
+
+Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTIzNjYzNCw0ODI0MDY2NjIsMzIwND
-kwNDkzLDQ2NzAxNjM1NywtMzQzNDE0MzE2LC0xMzQxNTQ1Nzcy
-LDEzODYzNTc3OTEsLTE4MTAzNjM4MDYsLTc0NjE4ODc4OCwtMT
-E3MzQzMjY2MSwtMTMwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0
-MTkxMzIsOTg0MjQxNjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLT
-ExNDY4MjUzMjcsMzc2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYw
-MzVdfQ==
+eyJoaXN0b3J5IjpbMTcxNDYzNTEwOSwtNjg1MjM2NjM0LDQ4Mj
+QwNjY2MiwzMjA0OTA0OTMsNDY3MDE2MzU3LC0zNDM0MTQzMTYs
+LTEzNDE1NDU3NzIsMTM4NjM1Nzc5MSwtMTgxMDM2MzgwNiwtNz
+Q2MTg4Nzg4LC0xMTczNDMyNjYxLC0xMzAyMDYwODMsLTE2Njc0
+NDE4NjUsLTI2NzQxOTEzMiw5ODQyNDE2NDAsMTA4NzA0NDM5LC
+01NjU3MDExNSwtMTE0NjgyNTMyNywzNzY4NDM4MSwxMzc5MTk0
+Njk4XX0=
 -->
