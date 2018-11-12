@@ -261,13 +261,18 @@ Traits are definded using the trait keyword and used in classes using use keywor
 		}
 	}
 	
-	class MotoG im[l{}
+	class MotoG implements SmartPhone {
+		use Andriod; // No need of overriding 
+		public function model(){
+			echo "MotoG";
+		}
+	}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM0MzI2NjEsODEwMTQyMTc2LC0xMz
-AyMDYwODMsLTE2Njc0NDE4NjUsLTI2NzQxOTEzMiw5ODQyNDE2
-NDAsMTA4NzA0NDM5LC01NjU3MDExNSwtMTE0NjgyNTMyNywzNz
-Y4NDM4MSwxMzc5MTk0Njk4LDM1MDUyNjAzNSwxMTY0MjY4NTc5
-LDE1ODM2MDE4NDYsLTEyOTUzODk1NjcsLTI1MjgyMTk3OSwtND
-A4NjMxODYyLDEwODAwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0
-MTk1XX0=
+eyJoaXN0b3J5IjpbLTcxNjg1Njc0NCwtMTE3MzQzMjY2MSwtMT
+MwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0MTkxMzIsOTg0MjQx
+NjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcsMz
+c2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2ODU3
+OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLT
+QwODYzMTg2MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1NzI4
+NDE5NV19
 -->
