@@ -13,7 +13,7 @@
 
 	i. [Accessing class properties from a class method](#accessing-class-properties-from-a-class-method)
 	
- 3. Inheritance
+ 3. [Inheritance](#inheritance)
 
 	i. Extending classes
 	
@@ -308,11 +308,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ2Njk0NSwtMTAxMTc1MjU5OCw0Nj
-cwMTYzNTcsLTM0MzQxNDMxNiwtMTM0MTU0NTc3MiwxMzg2MzU3
-NzkxLC0xODEwMzYzODA2LC03NDYxODg3ODgsLTExNzM0MzI2Nj
-EsLTEzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4
-NDI0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1Mz
-I3LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQy
-Njg1NzldfQ==
+eyJoaXN0b3J5IjpbMzIwNDkwNDkzLC0xNDk0NjY5NDUsNDY3MD
+E2MzU3LC0zNDM0MTQzMTYsLTEzNDE1NDU3NzIsMTM4NjM1Nzc5
+MSwtMTgxMDM2MzgwNiwtNzQ2MTg4Nzg4LC0xMTczNDMyNjYxLC
+0xMzAyMDYwODMsLTE2Njc0NDE4NjUsLTI2NzQxOTEzMiw5ODQy
+NDE2NDAsMTA4NzA0NDM5LC01NjU3MDExNSwtMTE0NjgyNTMyNy
+wzNzY4NDM4MSwxMzc5MTk0Njk4LDM1MDUyNjAzNSwxMTY0MjY4
+NTc5XX0=
 -->
