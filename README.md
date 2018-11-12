@@ -90,10 +90,10 @@ Class properties and functions can be accessed by **"->"** operator.
 
 ### Constructors and Destructors
 
-Class constructor is executed whenever a new object is instantiated using the new keyword. Constructor is usefull when 
+Class constructor is executed whenever a new object is instantiated using the new keyword. Constructor is used to assign(initialize) properties for the class object before it is used e.g
 
     class MyClass {
-    
+	    
     }
 
 ## Functions
@@ -331,7 +331,7 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjM0MTkyNSwtNTkxNDEyNzk2LC04ND
+eyJoaXN0b3J5IjpbLTY5NzQwNDYyNiwtNTkxNDEyNzk2LC04ND
 M5ODM1OSwxNzE0NjM1MTA5LC02ODUyMzY2MzQsNDgyNDA2NjYy
 LDMyMDQ5MDQ5Myw0NjcwMTYzNTcsLTM0MzQxNDMxNiwtMTM0MT
 U0NTc3MiwxMzg2MzU3NzkxLC0xODEwMzYzODA2LC03NDYxODg3
