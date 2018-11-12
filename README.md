@@ -8,6 +8,8 @@
 	 i.  [Declaring classes](#declaring-classes)
 	 
 	 ii. [Accessing class properties and methods](#accessing-class-properties-and-methods)
+
+	iii. Constructors and Destructors
 	 
  2. [Functions](#functions)
 
@@ -321,11 +323,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTQxMjc5NiwtODQzOTgzNTksMTcxND
-YzNTEwOSwtNjg1MjM2NjM0LDQ4MjQwNjY2MiwzMjA0OTA0OTMs
-NDY3MDE2MzU3LC0zNDM0MTQzMTYsLTEzNDE1NDU3NzIsMTM4Nj
-M1Nzc5MSwtMTgxMDM2MzgwNiwtNzQ2MTg4Nzg4LC0xMTczNDMy
-NjYxLC0xMzAyMDYwODMsLTE2Njc0NDE4NjUsLTI2NzQxOTEzMi
-w5ODQyNDE2NDAsMTA4NzA0NDM5LC01NjU3MDExNSwtMTE0Njgy
-NTMyN119
+eyJoaXN0b3J5IjpbLTE1NjgxNjg3MjEsLTU5MTQxMjc5NiwtOD
+QzOTgzNTksMTcxNDYzNTEwOSwtNjg1MjM2NjM0LDQ4MjQwNjY2
+MiwzMjA0OTA0OTMsNDY3MDE2MzU3LC0zNDM0MTQzMTYsLTEzND
+E1NDU3NzIsMTM4NjM1Nzc5MSwtMTgxMDM2MzgwNiwtNzQ2MTg4
+Nzg4LC0xMTczNDMyNjYxLC0xMzAyMDYwODMsLTE2Njc0NDE4Nj
+UsLTI2NzQxOTEzMiw5ODQyNDE2NDAsMTA4NzA0NDM5LC01NjU3
+MDExNV19
 -->
