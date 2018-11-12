@@ -245,34 +245,41 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	
 	trait Android {
 		public function osName(){
-			echo "Android";
+			return "Android";
 		}
 		public function developer(){
-			echo "Googe";
+			return "Googe";
 		}
 	}
 	
 	trait Ios {
 		public function osName(){
-			echo "IOS";
+			return "IOS";
 		}
 		public function developer(){
-			echo "Apple";
+			return "Apple";
 		}
 	}
 	
 	class MotoG implements SmartPhone {
-		use Andriod; // No need of overriding 
+		use Andriod; // No need of overriding osName and developer methods.
 		public function model(){
-			echo "MotoG";
+			return "MotoG";
+		}
+	}
+	
+	class IphoneXPlus implements SmartPhone {
+		use Ios; // No need of overriding osName and developer methods.
+		public function model(){
+			return "IphoneXPlus";
 		}
 	}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjg1Njc0NCwtMTE3MzQzMjY2MSwtMT
-MwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0MTkxMzIsOTg0MjQx
-NjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcsMz
-c2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2ODU3
-OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLT
-QwODYzMTg2MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1NzI4
-NDE5NV19
+eyJoaXN0b3J5IjpbLTEwNjYxMDU3NjIsLTExNzM0MzI2NjEsLT
+EzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4NDI0
+MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3LD
+M3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNjg1
+NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIxOTc5LC
+00MDg2MzE4NjIsMTA4MDA3MzUwMSwtNjY1MTY4Nzc1LDE3NTcy
+ODQxOTVdfQ==
 -->
