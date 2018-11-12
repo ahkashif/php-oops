@@ -248,7 +248,7 @@ Traits are definded using the trait keyword and used in classes using use keywor
 			return "Android";
 		}
 		public function developer(){
-			return "Googe";
+			return "Google Inc.";
 		}
 	}
 	
@@ -257,7 +257,7 @@ Traits are definded using the trait keyword and used in classes using use keywor
 			return "IOS";
 		}
 		public function developer(){
-			return "Apple";
+			return "Apple Inc.";
 		}
 	}
 	
@@ -275,16 +275,19 @@ Traits are definded using the trait keyword and used in classes using use keywor
 		}
 	}
 	
-	MotoG::model();
-	MotoG::osName(); // 
-	MotoG::developer(); // Google
+	MotoG::model(); // MotoG
+	MotoG::os(); // Andriod
+	MotoG::developer(); // Google Inc.
 	
+	IphoneXPlus::model(); // IphoneXPlus
+	IphoneXPlus::os(); // IOS
+	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjE4ODc4OCwtMzc5MDIxMjA0LC0xMT
-czNDMyNjYxLC0xMzAyMDYwODMsLTE2Njc0NDE4NjUsLTI2NzQx
-OTEzMiw5ODQyNDE2NDAsMTA4NzA0NDM5LC01NjU3MDExNSwtMT
-E0NjgyNTMyNywzNzY4NDM4MSwxMzc5MTk0Njk4LDM1MDUyNjAz
-NSwxMTY0MjY4NTc5LDE1ODM2MDE4NDYsLTEyOTUzODk1NjcsLT
-I1MjgyMTk3OSwtNDA4NjMxODYyLDEwODAwNzM1MDEsLTY2NTE2
-ODc3NV19
+eyJoaXN0b3J5IjpbLTE4MTAzNjM4MDYsLTc0NjE4ODc4OCwtMT
+E3MzQzMjY2MSwtMTMwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0
+MTkxMzIsOTg0MjQxNjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLT
+ExNDY4MjUzMjcsMzc2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYw
+MzUsMTE2NDI2ODU3OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC
+0yNTI4MjE5NzksLTQwODYzMTg2MiwxMDgwMDczNTAxLC02NjUx
+Njg3NzVdfQ==
 -->
