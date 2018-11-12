@@ -118,7 +118,7 @@ Destructors are used to free up any resources e.g db connection, file stream whi
     // Bye World
     
 
-> Note: __construcor and __descructor are magic methods in php. 
+> Note: __construcor and __descructor are magic methods in php. Magic mw
 
 ## Functions
 	
@@ -355,11 +355,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjkyNDExMyw2NDg3MzQ1NzQsLTg1MT
-I0MDk2NSw1MDQ1Njc4NDgsLTU5MTQxMjc5NiwtODQzOTgzNTks
-MTcxNDYzNTEwOSwtNjg1MjM2NjM0LDQ4MjQwNjY2MiwzMjA0OT
-A0OTMsNDY3MDE2MzU3LC0zNDM0MTQzMTYsLTEzNDE1NDU3NzIs
-MTM4NjM1Nzc5MSwtMTgxMDM2MzgwNiwtNzQ2MTg4Nzg4LC0xMT
-czNDMyNjYxLC0xMzAyMDYwODMsLTE2Njc0NDE4NjUsLTI2NzQx
-OTEzMl19
+eyJoaXN0b3J5IjpbLTEyMDU0MjAzMCwtOTc2OTI0MTEzLDY0OD
+czNDU3NCwtODUxMjQwOTY1LDUwNDU2Nzg0OCwtNTkxNDEyNzk2
+LC04NDM5ODM1OSwxNzE0NjM1MTA5LC02ODUyMzY2MzQsNDgyND
+A2NjYyLDMyMDQ5MDQ5Myw0NjcwMTYzNTcsLTM0MzQxNDMxNiwt
+MTM0MTU0NTc3MiwxMzg2MzU3NzkxLC0xODEwMzYzODA2LC03ND
+YxODg3ODgsLTExNzM0MzI2NjEsLTEzMDIwNjA4MywtMTY2NzQ0
+MTg2NV19
 -->
