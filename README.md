@@ -240,15 +240,15 @@ Traits are definded using the trait keyword and used in classes using use keywor
     interface SmartPhone {
 		public function model();
 		public function os();
-		developer ()
+		developer ();
 	}
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzAwMDY4MiwtMTMwMjA2MDgzLC0xNj
-Y3NDQxODY1LC0yNjc0MTkxMzIsOTg0MjQxNjQwLDEwODcwNDQz
-OSwtNTY1NzAxMTUsLTExNDY4MjUzMjcsMzc2ODQzODEsMTM3OT
-E5NDY5OCwzNTA1MjYwMzUsMTE2NDI2ODU3OSwxNTgzNjAxODQ2
-LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLTQwODYzMTg2MiwxMD
-gwMDczNTAxLC02NjUxNjg3NzUsMTc1NzI4NDE5NSwxOTc4MDI4
-NjVdfQ==
+eyJoaXN0b3J5IjpbOTg1NzMxMjk1LC0yNDMwMDA2ODIsLTEzMD
+IwNjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4NDI0MTY0
+MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3LDM3Nj
+g0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNjg1Nzks
+MTU4MzYwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIxOTc5LC00MD
+g2MzE4NjIsMTA4MDA3MzUwMSwtNjY1MTY4Nzc1LDE3NTcyODQx
+OTVdfQ==
 -->
