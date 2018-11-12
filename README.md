@@ -202,9 +202,9 @@ Interfaces are is same as abstact class except it can only contain abstract meth
 	    public function myFunction();
 	}
 	
-Apart from abstract methods, interfaces can contain constatnts also, but the constants cannto be overridden i
+Apart from abstract methods, interfaces can contain constatnts also, but the constants cannto be overridden in te
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA4NDUyMDUsNTUwNTYyMzYwLDEwOD
+eyJoaXN0b3J5IjpbOTg0MjQxNjQwLC0xOTcwODQ1MjA1LDEwOD
 cwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcsMzc2ODQzODEs
 MTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2ODU3OSwxNTgzNj
 AxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLTQwODYzMTg2
