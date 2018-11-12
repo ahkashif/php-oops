@@ -90,12 +90,14 @@ Class properties and functions can be accessed by **"->"** operator.
 
 ### Constructors and Destructors
 
-Class constructor is executed whenever a new object is instantiated using the new keyword. Constructor is used to assign(initialize) properties for the class object before it is used e.g a Db c
+Class constructor is executed whenever a new object is instantiated using the new keyword. Constructor is used to assign(initialize) properties for the class object before it is used e.g a DB connection, file stream etc.
 
     class MyClass {
-	    
+	    public __construct() {
+		    echo "Hello World";
+		}
     }
-
+A constructor can have any number of arguments. 
 ## Functions
 	
 	/**
@@ -331,11 +333,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0NTY3ODQ4LC02OTc0MDQ2MjYsLTU5MT
-QxMjc5NiwtODQzOTgzNTksMTcxNDYzNTEwOSwtNjg1MjM2NjM0
-LDQ4MjQwNjY2MiwzMjA0OTA0OTMsNDY3MDE2MzU3LC0zNDM0MT
-QzMTYsLTEzNDE1NDU3NzIsMTM4NjM1Nzc5MSwtMTgxMDM2Mzgw
-NiwtNzQ2MTg4Nzg4LC0xMTczNDMyNjYxLC0xMzAyMDYwODMsLT
-E2Njc0NDE4NjUsLTI2NzQxOTEzMiw5ODQyNDE2NDAsMTA4NzA0
-NDM5XX0=
+eyJoaXN0b3J5IjpbNzE2ODAzMDgzLDUwNDU2Nzg0OCwtNTkxND
+EyNzk2LC04NDM5ODM1OSwxNzE0NjM1MTA5LC02ODUyMzY2MzQs
+NDgyNDA2NjYyLDMyMDQ5MDQ5Myw0NjcwMTYzNTcsLTM0MzQxND
+MxNiwtMTM0MTU0NTc3MiwxMzg2MzU3NzkxLC0xODEwMzYzODA2
+LC03NDYxODg3ODgsLTExNzM0MzI2NjEsLTEzMDIwNjA4MywtMT
+Y2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4NDI0MTY0MCwxMDg3MDQ0
+MzldfQ==
 -->
