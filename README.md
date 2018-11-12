@@ -7,11 +7,11 @@
 
 	 i.  [Declaring classes](#declaring-classes)
 	 
-	 ii. Accessing class properties and methods
+	 ii. [Accessing class properties and methods](#accessing-class-properties-and-methods)
 	 
- 2. Functions
+ 2. [Functions](#functions)
 
-	i. Acessing class properties from a class method
+	i. [Accessing class properties from a class method](#accessing-class-properties-from-a-class-method)
 	
  3. Inheritance
 
@@ -308,11 +308,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTE3NTI1OTgsNzMyMjA1MjYwLDQ2Nz
-AxNjM1NywtMzQzNDE0MzE2LC0xMzQxNTQ1NzcyLDEzODYzNTc3
-OTEsLTE4MTAzNjM4MDYsLTc0NjE4ODc4OCwtMTE3MzQzMjY2MS
-wtMTMwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0MTkxMzIsOTg0
-MjQxNjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMj
-csMzc2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2
-ODU3OV19
+eyJoaXN0b3J5IjpbLTE0OTQ2Njk0NSwtMTAxMTc1MjU5OCw0Nj
+cwMTYzNTcsLTM0MzQxNDMxNiwtMTM0MTU0NTc3MiwxMzg2MzU3
+NzkxLC0xODEwMzYzODA2LC03NDYxODg3ODgsLTExNzM0MzI2Nj
+EsLTEzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4
+NDI0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1Mz
+I3LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQy
+Njg1NzldfQ==
 -->
