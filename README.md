@@ -233,16 +233,19 @@ Apart from abstract methods, interfaces can contain constatnts also, but the con
 
 ### Traits
 
-Trait is a concept of code reusability in PHP.  Since php is a single inheritance language, to allow developers to reuse sets of methods in several independent classes living in different class hierarchies, traits are used.
+[Trait](http://php.net/manual/en/language.oop5.traits.php) is a concept of code reusability in PHP.  Since php is a single inheritance language, to allow developers to reuse sets of methods in several independent classes living in different class hierarchies, traits are used.
 
 Traits are definded using the trait keyword and used in classes using use keyword. A class use multiple keywords.
 
+    interface SmartPhone {
+	
+	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAwNTA5MDYsLTE2Njc0NDE4NjUsLT
-I2NzQxOTEzMiw5ODQyNDE2NDAsMTA4NzA0NDM5LC01NjU3MDEx
-NSwtMTE0NjgyNTMyNywzNzY4NDM4MSwxMzc5MTk0Njk4LDM1MD
-UyNjAzNSwxMTY0MjY4NTc5LDE1ODM2MDE4NDYsLTEyOTUzODk1
-NjcsLTI1MjgyMTk3OSwtNDA4NjMxODYyLDEwODAwNzM1MDEsLT
-Y2NTE2ODc3NSwxNzU3Mjg0MTk1LDE5NzgwMjg2NV19
+eyJoaXN0b3J5IjpbLTc2NTU0NTg5MCwtMTY2NzQ0MTg2NSwtMj
+Y3NDE5MTMyLDk4NDI0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1
+LC0xMTQ2ODI1MzI3LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNT
+I2MDM1LDExNjQyNjg1NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2
+NywtMjUyODIxOTc5LC00MDg2MzE4NjIsMTA4MDA3MzUwMSwtNj
+Y1MTY4Nzc1LDE3NTcyODQxOTUsMTk3ODAyODY1XX0=
 -->
