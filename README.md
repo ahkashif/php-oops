@@ -97,7 +97,12 @@ Class constructor is executed whenever a new object is instantiated using the ne
 		    echo "Hello World";
 		}
     }
-A constructor can have any number of arguments. 
+    new MyClass; // Hello World
+
+> Note: A constructor can have any number of arguments.
+
+Destructors are called 
+ 
 ## Functions
 	
 	/**
@@ -333,11 +338,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2ODAzMDgzLDUwNDU2Nzg0OCwtNTkxND
-EyNzk2LC04NDM5ODM1OSwxNzE0NjM1MTA5LC02ODUyMzY2MzQs
-NDgyNDA2NjYyLDMyMDQ5MDQ5Myw0NjcwMTYzNTcsLTM0MzQxND
-MxNiwtMTM0MTU0NTc3MiwxMzg2MzU3NzkxLC0xODEwMzYzODA2
-LC03NDYxODg3ODgsLTExNzM0MzI2NjEsLTEzMDIwNjA4MywtMT
-Y2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4NDI0MTY0MCwxMDg3MDQ0
-MzldfQ==
+eyJoaXN0b3J5IjpbLTg1MTI0MDk2NSw1MDQ1Njc4NDgsLTU5MT
+QxMjc5NiwtODQzOTgzNTksMTcxNDYzNTEwOSwtNjg1MjM2NjM0
+LDQ4MjQwNjY2MiwzMjA0OTA0OTMsNDY3MDE2MzU3LC0zNDM0MT
+QzMTYsLTEzNDE1NDU3NzIsMTM4NjM1Nzc5MSwtMTgxMDM2Mzgw
+NiwtNzQ2MTg4Nzg4LC0xMTczNDMyNjYxLC0xMzAyMDYwODMsLT
+E2Njc0NDE4NjUsLTI2NzQxOTEzMiw5ODQyNDE2NDAsMTA4NzA0
+NDM5XX0=
 -->
