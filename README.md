@@ -196,7 +196,9 @@ The subclass which extends an abstact class must define the implementation or el
 ### Interfaces
 Interfaces are is same as abstact class except it can only contain abstract methods and the classes inherited form it must have to define all the methods.
 
-> Interfaces are declared using **interface** keyword.
+> 1. Interfaces are declared using **interface** keyword.
+> 2. All methods declred in an interface must be public.
+> 3. One class can implement more than one interface.
 
     interface MyInterface {
 	    public function myFunction();
@@ -204,12 +206,12 @@ Interfaces are is same as abstact class except it can only contain abstract meth
 	
 Apart from abstract methods, interfaces can contain constatnts also, but the constants cannto be overridden by the child classes. All the 
 
-One class can implement more than one interface.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTA3NDQzMiw5ODQyNDE2NDAsMTA4Nz
-A0NDM5LC01NjU3MDExNSwtMTE0NjgyNTMyNywzNzY4NDM4MSwx
-Mzc5MTk0Njk4LDM1MDUyNjAzNSwxMTY0MjY4NTc5LDE1ODM2MD
-E4NDYsLTEyOTUzODk1NjcsLTI1MjgyMTk3OSwtNDA4NjMxODYy
-LDEwODAwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LDE5Nz
-gwMjg2NV19
+eyJoaXN0b3J5IjpbLTExOTU4MzAwMDAsOTg0MjQxNjQwLDEwOD
+cwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcsMzc2ODQzODEs
+MTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2ODU3OSwxNTgzNj
+AxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLTQwODYzMTg2
+MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1NzI4NDE5NSwxOT
+c4MDI4NjVdfQ==
 -->
