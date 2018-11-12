@@ -199,10 +199,12 @@ Interfaces are is same as abstact class except it can only contain abstract meth
 > Interfaces are declared using **interface** keyword.
 
     interface MyInterface {
+	    public function myFunction();
 	}
-
+	
+Apart from abstract methods, interfaces can contain constatnts also, but the constants cannto be overridden i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwNTYyMzYwLC0yMDAxNTYzNTkzLDEwOD
+eyJoaXN0b3J5IjpbLTE5NzA4NDUyMDUsNTUwNTYyMzYwLDEwOD
 cwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcsMzc2ODQzODEs
 MTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2ODU3OSwxNTgzNj
 AxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLTQwODYzMTg2
