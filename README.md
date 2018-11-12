@@ -184,7 +184,7 @@ To acess parent class properties, **parent** keyword is used.
     
 ### Abstract classes
 
-Abstract classes are the classes which cannot be instantiated, but can be extended. It should contain atleast one abstact method. An abstarct method is a method which has only declaration but no definition.
+[Abstract classes](http://php.net/manual/en/language.oop5.abstract.php) are the classes which cannot be instantiated, but can be extended. It should contain atleast one abstact method. An abstarct method is a method which has only declaration but no definition.
 
 The subclass which extends an abstact class must define the implementation or else it should also be marked abstarct.
 
@@ -218,7 +218,7 @@ The subclass which extends an abstact class must define the implementation or el
 		}
 	}
 
-### Interfaces
+### [Interfaces](http://php.net/manual/en/language.oop5.interfaces.php)
 Interfaces are is same as abstact class except it can only contain abstract methods and the classes inherited form it must have to define all the methods.
 
 > 1. Interfaces are declared using **interface** keyword.
@@ -308,11 +308,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDcwNDMzNDksNDgyNDA2NjYyLDMyMD
-Q5MDQ5Myw0NjcwMTYzNTcsLTM0MzQxNDMxNiwtMTM0MTU0NTc3
-MiwxMzg2MzU3NzkxLC0xODEwMzYzODA2LC03NDYxODg3ODgsLT
-ExNzM0MzI2NjEsLTEzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMjY3
-NDE5MTMyLDk4NDI0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC
-0xMTQ2ODI1MzI3LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2
-MDM1XX0=
+eyJoaXN0b3J5IjpbLTQwMTQ2MzIwMSw0ODI0MDY2NjIsMzIwND
+kwNDkzLDQ2NzAxNjM1NywtMzQzNDE0MzE2LC0xMzQxNTQ1Nzcy
+LDEzODYzNTc3OTEsLTE4MTAzNjM4MDYsLTc0NjE4ODc4OCwtMT
+E3MzQzMjY2MSwtMTMwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0
+MTkxMzIsOTg0MjQxNjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLT
+ExNDY4MjUzMjcsMzc2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYw
+MzVdfQ==
 -->
