@@ -101,7 +101,7 @@ Class constructor is executed whenever a new object is instantiated using the ne
 
 > Note: A constructor can have any number of arguments.
 
-Destructors are called when there is no more reference to the object. It is also called when the script execution is ended us
+Destructors are called when there is no more reference to the object. It is also called when the script execution is ended using exit
  
 ## Functions
 	
@@ -338,11 +338,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjk3ODY0MTQsLTg1MTI0MDk2NSw1MD
-Q1Njc4NDgsLTU5MTQxMjc5NiwtODQzOTgzNTksMTcxNDYzNTEw
-OSwtNjg1MjM2NjM0LDQ4MjQwNjY2MiwzMjA0OTA0OTMsNDY3MD
-E2MzU3LC0zNDM0MTQzMTYsLTEzNDE1NDU3NzIsMTM4NjM1Nzc5
-MSwtMTgxMDM2MzgwNiwtNzQ2MTg4Nzg4LC0xMTczNDMyNjYxLC
-0xMzAyMDYwODMsLTE2Njc0NDE4NjUsLTI2NzQxOTEzMiw5ODQy
-NDE2NDBdfQ==
+eyJoaXN0b3J5IjpbNjQ4NzM0NTc0LC0xMDI5Nzg2NDE0LC04NT
+EyNDA5NjUsNTA0NTY3ODQ4LC01OTE0MTI3OTYsLTg0Mzk4MzU5
+LDE3MTQ2MzUxMDksLTY4NTIzNjYzNCw0ODI0MDY2NjIsMzIwND
+kwNDkzLDQ2NzAxNjM1NywtMzQzNDE0MzE2LC0xMzQxNTQ1Nzcy
+LDEzODYzNTc3OTEsLTE4MTAzNjM4MDYsLTc0NjE4ODc4OCwtMT
+E3MzQzMjY2MSwtMTMwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0
+MTkxMzJdfQ==
 -->
