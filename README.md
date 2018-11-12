@@ -118,7 +118,7 @@ Destructors are used to free up any resources e.g db connection, file stream whi
     // Bye World
     
 
-> Note: __construcor and __descructor are called magic methods  in php. PHP there are various magic methods 
+> Note: __construcor and __descructor are called [magic methods](http://php.net/manual/en/language.oop5.magic.php)  in php. Magic methods names are reserved by php and user defined functions should not be named same as them.
 
 ## Functions
 	
@@ -355,7 +355,7 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTc2MzUzNCwtMTIwNTQyMDMwLDY0OD
+eyJoaXN0b3J5IjpbLTUyMTc2NjgyMCwtMTIwNTQyMDMwLDY0OD
 czNDU3NCwtODUxMjQwOTY1LDUwNDU2Nzg0OCwtNTkxNDEyNzk2
 LC04NDM5ODM1OSwxNzE0NjM1MTA5LC02ODUyMzY2MzQsNDgyND
 A2NjYyLDMyMDQ5MDQ5Myw0NjcwMTYzNTcsLTM0MzQxNDMxNiwt
