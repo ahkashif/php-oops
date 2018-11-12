@@ -204,14 +204,18 @@ Interfaces are is same as abstact class except it can only contain abstract meth
 	    public function myFunction();
 	}
 	
-Apart from abstract methods, interfaces can contain constatnts also, but the constants cannto be overridden by the child classes. All the 
+Apart from abstract methods, interfaces can contain constatnts also, but the constants cannto be overridden by the child classes. 
 
+    interface Logger {
+    
+    }
+	class DBLogger {
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTU4MzAwMDAsOTg0MjQxNjQwLDEwOD
-cwNDQzOSwtNTY1NzAxMTUsLTExNDY4MjUzMjcsMzc2ODQzODEs
-MTM3OTE5NDY5OCwzNTA1MjYwMzUsMTE2NDI2ODU3OSwxNTgzNj
-AxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4MjE5NzksLTQwODYzMTg2
-MiwxMDgwMDczNTAxLC02NjUxNjg3NzUsMTc1NzI4NDE5NSwxOT
-c4MDI4NjVdfQ==
+eyJoaXN0b3J5IjpbMTgyMjczMDgxOCw5ODQyNDE2NDAsMTA4Nz
+A0NDM5LC01NjU3MDExNSwtMTE0NjgyNTMyNywzNzY4NDM4MSwx
+Mzc5MTk0Njk4LDM1MDUyNjAzNSwxMTY0MjY4NTc5LDE1ODM2MD
+E4NDYsLTEyOTUzODk1NjcsLTI1MjgyMTk3OSwtNDA4NjMxODYy
+LDEwODAwNzM1MDEsLTY2NTE2ODc3NSwxNzU3Mjg0MTk1LDE5Nz
+gwMjg2NV19
 -->
