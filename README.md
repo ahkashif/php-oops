@@ -261,9 +261,9 @@ Traits are definded using the trait keyword and used in classes using use keywor
 		}
 	}
 	
-	class MotoG {}
+	class MotoG im[l{}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwMTQyMTc2LC0xNTgxODgwMDAyLC0xMz
+eyJoaXN0b3J5IjpbLTExNzM0MzI2NjEsODEwMTQyMTc2LC0xMz
 AyMDYwODMsLTE2Njc0NDE4NjUsLTI2NzQxOTEzMiw5ODQyNDE2
 NDAsMTA4NzA0NDM5LC01NjU3MDExNSwtMTE0NjgyNTMyNywzNz
 Y4NDM4MSwxMzc5MTk0Njk4LDM1MDUyNjAzNSwxMTY0MjY4NTc5
