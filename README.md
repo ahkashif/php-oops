@@ -4,11 +4,15 @@
 ## Table of Contents
 
  1. Classes and Objects
-		i>  
+	 i. Accessing class properties and methods
+	 ii.
+	   
  2. 
 
 ## Classes and Objects 
-	
+
+### Declaring classes.
+
 Class is declared by using "class" keyword.
 
     class MyClass {
@@ -289,11 +293,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjcxNTg0OCw3OTYxNjY4NiwxMzg2Mz
-U3NzkxLC0xODEwMzYzODA2LC03NDYxODg3ODgsLTExNzM0MzI2
-NjEsLTEzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLD
-k4NDI0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1
-MzI3LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNj
-QyNjg1NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIx
-OTc5XX0=
+eyJoaXN0b3J5IjpbMTUwMDUxMTI3NiwxMzgyNzE1ODQ4LDEzOD
+YzNTc3OTEsLTE4MTAzNjM4MDYsLTc0NjE4ODc4OCwtMTE3MzQz
+MjY2MSwtMTMwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0MTkxMz
+IsOTg0MjQxNjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLTExNDY4
+MjUzMjcsMzc2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYwMzUsMT
+E2NDI2ODU3OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC0yNTI4
+MjE5NzldfQ==
 -->
