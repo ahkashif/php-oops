@@ -199,7 +199,7 @@ Interfaces are is same as abstact class except it can only contain abstract meth
 > 1. Interfaces are declared using **interface** keyword.
 > 2. All methods declred in an interface must be public.
 > 3. One class can implement more than one interface.
-
+> 4. One interface can extend another interface.
 
     interface Logger {
 	    public function log($message);
@@ -219,13 +219,18 @@ Interfaces are is same as abstact class except it can only contain abstract meth
 	
 Apart from abstract methods, interfaces can contain constatnts also, but the constants cannto be overridden by the child classes. 
 
-    interface MyInterface { public function myFunction(); }
-
+    interface Car { 
+	    const WHEELS = 4; 
+    }
+    class B { 
+	    const WHEELS = 4; 
+    }
+	echo Car::WHEELS; // 4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTIyMzY4NzUsNjYxMDkwMjE1LDk4ND
-I0MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3
-LDM3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNj
-g1NzksMTU4MzYwMTg0NiwtMTI5NTM4OTU2NywtMjUyODIxOTc5
-LC00MDg2MzE4NjIsMTA4MDA3MzUwMSwtNjY1MTY4Nzc1LDE3NT
-cyODQxOTUsMTk3ODAyODY1XX0=
+eyJoaXN0b3J5IjpbLTc2NDEzNjE5NCwtMTAxMjIzNjg3NSw5OD
+QyNDE2NDAsMTA4NzA0NDM5LC01NjU3MDExNSwtMTE0NjgyNTMy
+NywzNzY4NDM4MSwxMzc5MTk0Njk4LDM1MDUyNjAzNSwxMTY0Mj
+Y4NTc5LDE1ODM2MDE4NDYsLTEyOTUzODk1NjcsLTI1MjgyMTk3
+OSwtNDA4NjMxODYyLDEwODAwNzM1MDEsLTY2NTE2ODc3NSwxNz
+U3Mjg0MTk1LDE5NzgwMjg2NV19
 -->
