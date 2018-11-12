@@ -1,6 +1,10 @@
 
 # PHP OOP concepts.
 
+## Table of Contents
+
+
+
 ## Classes and Objects 
 	
 Class is declared by using "class" keyword.
@@ -283,11 +287,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTAzNjM4MDYsLTc0NjE4ODc4OCwtMT
-E3MzQzMjY2MSwtMTMwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0
-MTkxMzIsOTg0MjQxNjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLT
-ExNDY4MjUzMjcsMzc2ODQzODEsMTM3OTE5NDY5OCwzNTA1MjYw
-MzUsMTE2NDI2ODU3OSwxNTgzNjAxODQ2LC0xMjk1Mzg5NTY3LC
-0yNTI4MjE5NzksLTQwODYzMTg2MiwxMDgwMDczNTAxLC02NjUx
-Njg3NzVdfQ==
+eyJoaXN0b3J5IjpbLTIwODM0Njg1MywtMTgxMDM2MzgwNiwtNz
+Q2MTg4Nzg4LC0xMTczNDMyNjYxLC0xMzAyMDYwODMsLTE2Njc0
+NDE4NjUsLTI2NzQxOTEzMiw5ODQyNDE2NDAsMTA4NzA0NDM5LC
+01NjU3MDExNSwtMTE0NjgyNTMyNywzNzY4NDM4MSwxMzc5MTk0
+Njk4LDM1MDUyNjAzNSwxMTY0MjY4NTc5LDE1ODM2MDE4NDYsLT
+EyOTUzODk1NjcsLTI1MjgyMTk3OSwtNDA4NjMxODYyLDEwODAw
+NzM1MDFdfQ==
 -->
