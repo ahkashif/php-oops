@@ -9,7 +9,7 @@
 	 
 	 ii. [Accessing class properties and methods](#accessing-class-properties-and-methods)
 
-	iii. Constructors and Destructors
+	iii. [Constructors and Destructors](#constructors-and-destructors)
 	 
  2. [Functions](#functions)
 
@@ -355,7 +355,7 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTc2NjgyMCwtMTIwNTQyMDMwLDY0OD
+eyJoaXN0b3J5IjpbLTk5NjE2MDM3MCwtMTIwNTQyMDMwLDY0OD
 czNDU3NCwtODUxMjQwOTY1LDUwNDU2Nzg0OCwtNTkxNDEyNzk2
 LC04NDM5ODM1OSwxNzE0NjM1MTA5LC02ODUyMzY2MzQsNDgyND
 A2NjYyLDMyMDQ5MDQ5Myw0NjcwMTYzNTcsLTM0MzQxNDMxNiwt
