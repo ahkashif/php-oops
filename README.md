@@ -185,7 +185,7 @@ To acess parent class properties, **[parent](http://php.net/manual/kr/keyword.pa
 
 > Classses declared as **final** cannot be extended.
 
-    final class Final
+    final class FinalClass 
 
 ### Abstract classes
 
@@ -316,11 +316,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg1NjE2MzEsMTcxNDYzNTEwOSwtNj
-g1MjM2NjM0LDQ4MjQwNjY2MiwzMjA0OTA0OTMsNDY3MDE2MzU3
-LC0zNDM0MTQzMTYsLTEzNDE1NDU3NzIsMTM4NjM1Nzc5MSwtMT
-gxMDM2MzgwNiwtNzQ2MTg4Nzg4LC0xMTczNDMyNjYxLC0xMzAy
-MDYwODMsLTE2Njc0NDE4NjUsLTI2NzQxOTEzMiw5ODQyNDE2ND
-AsMTA4NzA0NDM5LC01NjU3MDExNSwtMTE0NjgyNTMyNywzNzY4
-NDM4MV19
+eyJoaXN0b3J5IjpbLTg0Mzk4MzU5LC0xMjg4NTYxNjMxLDE3MT
+Q2MzUxMDksLTY4NTIzNjYzNCw0ODI0MDY2NjIsMzIwNDkwNDkz
+LDQ2NzAxNjM1NywtMzQzNDE0MzE2LC0xMzQxNTQ1NzcyLDEzOD
+YzNTc3OTEsLTE4MTAzNjM4MDYsLTc0NjE4ODc4OCwtMTE3MzQz
+MjY2MSwtMTMwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0MTkxMz
+IsOTg0MjQxNjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLTExNDY4
+MjUzMjddfQ==
 -->
