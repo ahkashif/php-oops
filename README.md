@@ -185,8 +185,13 @@ To acess parent class properties, **[parent](http://php.net/manual/kr/keyword.pa
 
 > Classses declared as **final** cannot be extended.
 
-    final class FinalClass 
-
+    final class FinalClass {
+	
+	}
+	class Child extends FinalClass {
+	
+	}
+	// Results in Fatal error: Class ChildClass may not inherit from final class (BaseClass)
 ### Abstract classes
 
 [Abstract classes](http://php.net/manual/en/language.oop5.abstract.php) are the classes which cannot be instantiated, but can be extended. It should contain atleast one abstact method. An abstarct method is a method which has only declaration but no definition.
@@ -316,11 +321,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 
 Reference: http://php.net/manual/en/language.oop5.php
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Mzk4MzU5LC0xMjg4NTYxNjMxLDE3MT
-Q2MzUxMDksLTY4NTIzNjYzNCw0ODI0MDY2NjIsMzIwNDkwNDkz
-LDQ2NzAxNjM1NywtMzQzNDE0MzE2LC0xMzQxNTQ1NzcyLDEzOD
-YzNTc3OTEsLTE4MTAzNjM4MDYsLTc0NjE4ODc4OCwtMTE3MzQz
-MjY2MSwtMTMwMjA2MDgzLC0xNjY3NDQxODY1LC0yNjc0MTkxMz
-IsOTg0MjQxNjQwLDEwODcwNDQzOSwtNTY1NzAxMTUsLTExNDY4
-MjUzMjddfQ==
+eyJoaXN0b3J5IjpbLTU5MTQxMjc5NiwtODQzOTgzNTksMTcxND
+YzNTEwOSwtNjg1MjM2NjM0LDQ4MjQwNjY2MiwzMjA0OTA0OTMs
+NDY3MDE2MzU3LC0zNDM0MTQzMTYsLTEzNDE1NDU3NzIsMTM4Nj
+M1Nzc5MSwtMTgxMDM2MzgwNiwtNzQ2MTg4Nzg4LC0xMTczNDMy
+NjYxLC0xMzAyMDYwODMsLTE2Njc0NDE4NjUsLTI2NzQxOTEzMi
+w5ODQyNDE2NDAsMTA4NzA0NDM5LC01NjU3MDExNSwtMTE0Njgy
+NTMyN119
 -->
