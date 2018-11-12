@@ -15,13 +15,13 @@
 	
  3. [Inheritance](#inheritance)
 
-	i. Extending classes
+	i. [Extending classes](#extending-classes)
 	
-    ii. Abstract classes
+    ii. [Abstract classes](#abstract-classes)
     
-    iii. Interfaces
+    iii. [Interfaces](#interfaces)
     
-    iv. Traits
+    iv. [Traits](#traits)
 
 
 ## Classes and Objects 
@@ -308,11 +308,11 @@ Traits are definded using the trait keyword and used in classes using use keywor
 	IphoneXPlus::os(); // IOS
 	IphoneXPlus::developer(); // Apple inc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNDkwNDkzLC0xNDk0NjY5NDUsNDY3MD
-E2MzU3LC0zNDM0MTQzMTYsLTEzNDE1NDU3NzIsMTM4NjM1Nzc5
-MSwtMTgxMDM2MzgwNiwtNzQ2MTg4Nzg4LC0xMTczNDMyNjYxLC
-0xMzAyMDYwODMsLTE2Njc0NDE4NjUsLTI2NzQxOTEzMiw5ODQy
-NDE2NDAsMTA4NzA0NDM5LC01NjU3MDExNSwtMTE0NjgyNTMyNy
-wzNzY4NDM4MSwxMzc5MTk0Njk4LDM1MDUyNjAzNSwxMTY0MjY4
-NTc5XX0=
+eyJoaXN0b3J5IjpbNDgyNDA2NjYyLDMyMDQ5MDQ5Myw0NjcwMT
+YzNTcsLTM0MzQxNDMxNiwtMTM0MTU0NTc3MiwxMzg2MzU3Nzkx
+LC0xODEwMzYzODA2LC03NDYxODg3ODgsLTExNzM0MzI2NjEsLT
+EzMDIwNjA4MywtMTY2NzQ0MTg2NSwtMjY3NDE5MTMyLDk4NDI0
+MTY0MCwxMDg3MDQ0MzksLTU2NTcwMTE1LC0xMTQ2ODI1MzI3LD
+M3Njg0MzgxLDEzNzkxOTQ2OTgsMzUwNTI2MDM1LDExNjQyNjg1
+NzldfQ==
 -->
